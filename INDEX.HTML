@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Hola Mundo</title>
+	<link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-6">
+				<h1>Calculadora IVA</h1>
+				<form>
+					<div class="form-group">
+						<label>Ingrese el precio del producto:</label>
+						<input class="from-control" type="number" name="precio" id="precio">
+					</div>
+					<input class="btn btn-success" type="button" name="Calcular" value="Calcular" onclick="calcular_iva()" >
+				</form>
+				<h2>El Iva a pagar es <span id="resultado"></span></h2>
+			</div>
+		</div>
+	</div>		
+<script src="js/scritp.js"></script>
+
+</body>
+</html>
